@@ -1,3 +1,6 @@
-import type { Service } from './types.ts'
+import type { Service, Volume } from './types.ts'
 
-export const service = (props: Service) => props
+export const service = (props: Service): Service => ({
+    ...props,
+})
+export const volume = (props: Volume) => props

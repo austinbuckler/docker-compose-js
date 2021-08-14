@@ -5,3 +5,11 @@ Based off the blog post of [Chris Siebenmann](https://utcc.utoronto.ca/~cks/spac
 The end goal of this would be to easily build, edit and maintain docker deployments without weird and tedious errors related to the YAML format. With the added benefit of type-hinting and error checking.
 
 I decided to use Deno for this because I've grown to really dislike NodeJS (despite the fact its given me _everything_).
+
+
+## Usage:
+**Run:** `deno run <template_file> > docker-compose.yml`
+
+for example input see: `webservice.template.ts`
+
+for example output see: `docker-compose.example.yml`
