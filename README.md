@@ -1,4 +1,5 @@
-# super-octo-telegram
+# docker-compose.js
+Use javascript to build modular and maintainable docker-compose files. 
 
 Based off the blog post of [Chris Siebenmann](https://utcc.utoronto.ca/~cks/space/blog/programming/YAMLAndConfigurationFiles) on why YAML is not a good configuration format, and my own personal struggles/annoyance of using docker-compose, I decided to build a simple JavaScript/TypeScript DSL/API for composing docker-compose files.
 
